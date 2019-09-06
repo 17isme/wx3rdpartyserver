@@ -1,0 +1,19 @@
+{
+	"name": "wechatThridPartyServer",
+	"version": "1.0.0",
+	"author": "17isme",
+	"description": "a system for wechat thrid party",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"ioredis": "3.2.2",
+		"koa": "^2.8.1",
+		"koa-bodyparser": "^4.2.1",
+		"koa-router": "^7.4.0",
+		"koa-xml-body": "^2.1.0",
+		"request": "^2.88.0",
+		"wechat-crypto": "^0.0.2",
+		"xml2js": "^0.4.17"
+	}
+}
